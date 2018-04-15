@@ -1,0 +1,32 @@
+<DOCTYPE! html>
+
+<head>
+  <p>
+    This is for WD101: Fundamentals Part 3
+  </p>
+</head>
+
+<script>
+  function add7(number) {
+    var addresult = number + 7;
+    return addresult;
+  }
+
+  function multiply(num1, num2) {
+    var multresult = num1 * num2;
+    return multresult;
+  }
+
+  function capitalize(string) {
+    var lowstring = string.toLowerCase();
+    var firstlet = lowstring.slice(0,1);
+    var caplet = lowstring.replace(firstlet,firstlet.toUpperCase());
+    var resstring = caplet;
+    return resstring;
+  }
+
+  function lastLetter(last) {
+    var lastlet = last.slice(-1)
+    return lastlet;
+  }
+</script>
